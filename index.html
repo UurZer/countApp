@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="date-input ">
+        <input type="text" id="date-input" placeholder="--/--/----">
+      </div>
+      <div class="time-input ">
+        <input type="time" id="time-input" placeholder="">
+
+      </div>
+      <div id="countDown">
+       <div id="container">
+         <div class="container-item ">
+           <span class="count-numbers">Days</span>
+         </div>
+         <div class="container-item ">
+           <span class="count-numbers">Hours</span>
+         </div>
+         <div class="container-item ">
+           <span class="count-numbers">Minutes</span>
+         </div>
+         <div class="container-item ">
+           <span class="count-numbers">Seconds</span>
+      </div>
+
+       </div>
+        
+        <span id="getCountDown"></span>
+      </div>
+  </div>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+    <script src="datedropper.pro.min.js"> </script>
+    <script src="main.js"></script>
+</body>
+    </html>

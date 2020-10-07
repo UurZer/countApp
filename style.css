@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ABABFB;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    color:white;
+}
+.date-input #date-input{
+    top:20%;
+    left: 35%;
+    transform: translate(-40%,-20%);
+    position: absolute;
+    width:150px;
+    height: 30px;
+    border:none;
+    border-radius:10px;
+    text-align:center;
+    cursor:pointer;
+    color: white;
+    background-color: #fd4741;
+}
+::placeholder{
+    color: white;
+}
+.time-input #time-input{
+    top:20%;
+    left: 65%;
+    outline:0px;
+    transform: translate(-60%,-20%);
+    position: absolute;
+    width:150px;
+    height: 30px;
+    border:none;
+    border-radius:10px;
+    text-align:center;
+    color: white;
+    background-color: #fd4741;
+}
+
+
+ input[type="time"]::-webkit-calendar-picker-indicator {
+    color: white;
+    border:none;
+    cursor:pointer;
+    outline:0px;
+    text-align: center;
+    margin-right: 10px;
+    background:url(clock-solid.svg);
+}
+
+#countDown #getCountDown {
+    font-family: 'Orbitron', sans-serif;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:2.8rem;
+    color: #fd4741;
+}
+#countDown .container-item .count-numbers{
+    font-family: 'Orbitron', sans-serif;
+    font-size:0.8rem;
+    margin:1.2rem;
+    color: #fd4741;
+    text-align:end;
+    font-weight: bold;
+}
+.container-item{
+    display: inline;
+    flex-wrap: wrap;
+    text-align:center;  
+    
+}
+#container{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+}
+
+input[type="time"]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display: block;
+    width:20px;
+    color: red;
+    text-align:center;
+    position:relative;
+}
+input[type=time]::-webkit-inner-spin-button {
+    display: none;
+  }
